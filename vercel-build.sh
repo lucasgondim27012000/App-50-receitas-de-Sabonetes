@@ -5,20 +5,5 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww37860\viewh17780\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \{\
-  "builds": [\
-    \{\
-      "src": "package.json",\
-      "use": "@vercel/static-build",\
-      "config": \{\
-        "distDir": "dist"\
-      \}\
-    \}\
-  ],\
-  "routes": [\
-    \{\
-      "src": "/(.*)",\
-      "dest": "/index.html"\
-    \}\
-  ]\
-\}}
+\f0\fs24 \cf0 #!/bin/bash\
+npm run build}
